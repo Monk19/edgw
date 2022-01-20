@@ -1,0 +1,23 @@
+<svg id="Component_40_2" data-name="Component 40 – 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42" height="42" viewBox="0 0 42 42">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_76" data-name="Rectangle 76" width="42" height="42" transform="translate(994 2922)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_16" data-name="Mask Group 16" transform="translate(-994 -2922)" clip-path="url(#clip-path)">
+    <g id="Group_110" data-name="Group 110" transform="translate(1)">
+      <g id="Layer_2" data-name="Layer 2" transform="translate(994 2923)">
+        <g id="Layer_1" data-name="Layer 1">
+          <rect id="Rectangle_53" data-name="Rectangle 53" width="40" height="40" rx="6.48" fill="#fff"/>
+          <path id="Path_46" data-name="Path 46" d="M19.37,10.3h2.286V6.791c-.36,0-.734-.083-1.108-.111H18.483a5.057,5.057,0,0,0-2.91.9,4.364,4.364,0,0,0-1.76,2.91,10.239,10.239,0,0,0-.125,1.5v2.646H10.35v3.893h3.325v9.8h4.06V18.512h3.311l.513-3.921H17.707V11.82c.069-1.15.748-1.5,1.663-1.524Z" transform="translate(3.99 2.575)" fill="#212121"/>
+        </g>
+      </g>
+      <g id="Layer_2-2" data-name="Layer 2" transform="translate(994 2965)">
+        <g id="Layer_1-2" data-name="Layer 1">
+          <rect id="Rectangle_53-2" data-name="Rectangle 53" width="40" height="40" rx="6.48" fill="#4c76be"/>
+          <path id="Path_46-2" data-name="Path 46" d="M19.37,10.3h2.286V6.791c-.36,0-.734-.083-1.108-.111H18.483a5.057,5.057,0,0,0-2.91.9,4.364,4.364,0,0,0-1.76,2.91,10.239,10.239,0,0,0-.125,1.5v2.646H10.35v3.893h3.325v9.8h4.06V18.512h3.311l.513-3.921H17.707V11.82c.069-1.15.748-1.5,1.663-1.524Z" transform="translate(3.99 2.575)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

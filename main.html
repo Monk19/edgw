@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet">    <!--  -->
+<script>
+ $(function () {
+  $(document).scroll(function () {
+	  var $nav = $(".navbar-fixed-top");
+	  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+	});
+});
+</script>
+    <link href="./Styles.css" rel="stylesheet" />
+
+  </head>
+  
+  <body>
+    <header class="ew-navigation">
+      <nav
+        class="navbar navbar-expand-lg fixed-top navbar-fixed-top"
+        id="ew-navigation"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="Assets/Images/edge logo.png" alt="ew-logo" class="ew-logo"/></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#ew-navbar-list"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+<i class="fas fa-bars"></i>          </button>
+          <div class="collapse navbar-collapse" id="ew-navbar-list">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item ">
+                <a onClick="location.href='./main.html'"
+                class="nav-link active " href="#HOME">HOME</a>
+              </li>
+              <li class="nav-item ">
+                <a onClick="location.href='./about.html'"
+                  class="nav-link " href="#ABOUT">ABOUT</a>
+              </li>
+              <li class="nav-item ">
+                <a onClick="location.href='./services.html'"
+                 class="nav-link" href="#">SERVICES</a>
+              </li>
+              <!-- <li class="nav-item ">
+                <a class="nav-link" href="#CAREERS">CAREERS</a>
+              </li> -->
+              <li class="nav-item ">
+                <a onClick="location.href='./portfolio.html'"
+                 class="nav-link" href="#">PORTFOLIO</a>
+              </li>
+              <li class="nav-item ">
+                <a onClick="location.href='./jobs.html'"
+                class="nav-link " href="#">JOBS & INTERSHIP</a>
+              </li>
+              <li class="nav-item ">
+                <a onClick="location.href='./contact.html'"
+                 class="nav-link" href="#">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="ew-home">
+      
+      <div class="bg-image-home"></div>
+      <div class="container">
+      <div class="ew-home-container">
+     
+            <h1 class="ew-home-heading text-center">
+              We bring the right people together <br/>to challenge established
+              thinking <br/>and drive <span class="ew-Highlight">transformation.</span>
+            </h1>
+       
+      </div>
+      </div>
+      <div class="banner-text2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 text-center ">
+            <div class="my-3">
+              <img
+                src="./Assets/Images/EDGE Works - homepage – 2/noun_innovative technology_2102003.svg"
+                alt="logo"
+              />
+            </div>
+            <h2>We Innovate</h2>
+            <p>We innovate systematically, continuously and <br/>successfully.</p>
+            <a href="#">Read more</a>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="my-3">
+              <img
+                src="./Assets/Images/EDGE Works - homepage – 2/noun_performance_2108627.svg"
+                alt="logo"
+              />
+            </div>
+            <h2>Performance</h2>
+            <p>Performance is about solving problems and<br/> building business.</p>
+            <a href="#">Read more</a>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="my-3">
+              <img
+                src="./Assets/Images/EDGE Works - homepage – 2/noun_service_3503113.svg"
+                alt="logo"
+              />
+            </div>
+            <h2>A Full Service</h2>
+            <p>We are a full service business solutions<br/> provider.</p>
+            <a href="#">Read more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section> 
+    <div class="clearfix"></div> 
+     <section  class="about my-6">
+  <div class="container">
+  <div class="row">
+    <div class="col-md-5">
+<span class="Page-identifier">ABOUT</span>
+            <h1 class="ew-heading">
+              We are more than you 
+              <br/>
+              <span class="ew-Highlight">imagine</span>
+            </h1> 
+            <p class="">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tLorem ipsum, or lipsum as it is sometimes known, is dummy
+              text used in laying out print, graphic or web designs. The passage
+              is attributed to an unknown typesetter in the 15th century who is
+              thought to have scrambled parts of Cicero's De Finibus Bonorum et
+              Malorum for use in a type specimen book. It usually begins with:
+              </p>
+              <p>
+              “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.” The
+              purpose of lorem ipsum is to create a natural looking block of
+              text (sentence, paragraph, page, etc.) that doesn't distract from
+              the layout. A practice not without controversy. 
+            </p>
+
+    </div>
+    <div class="col-md-7">
+      <img src="./Assets/Images/Group 72@2x.png" class="our-img"/>
+      <div class="ew-HeadOnImg">
+        <h1 class="mb-0">Our<br/> Mission & Vision</h1>
+        <h1 class="ew-BlueHiglight mb-0"> Successful Business</h1>
+      </div>
+      <p class="mt-4">
+        Our mission is to provide expertise, efficiency, and excellence in service to enhance the digital and cloud ecosystems of our customers. With expert analysis, creative design and development, implementation, and support, the Eficens team will help clients to deliver market-defining, high quality solutions that create value and reliable competitive advantage to customers around the globe.
+      </p>
+      <button class="ew-readmore-float-right-buttons mob-btn"><span class="read-more-text">read more <img class="arrowhead" src="./Assets/Images/noun_Arrow Right_70412.png">
+      </span></button>
+    </div>
+    <!-- <div class="col-md-7">
+      <img src="./Assets/Images/Group 72@2x.png" class="our-img"/>
+    
+
+        <p class="mt-4">
+        Our mission is to provide expertise, efficiency, and excellence in service to enhance the digital and cloud ecosystems of our customers. With expert analysis, creative design and development, implementation, and support, the Eficens team will help clients to deliver market-defining, high quality solutions that create value and reliable competitive advantage to customers around the globe.
+      </p>
+  
+          </div> -->
+
+    </div>
+  </div>
+
+
+</section>
+<div class="clearfix"></div>
+    <section  id="SERVICES">
+ 
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="./Assets/Images/EDGE Works - homepage – 2/christina-wocintechchat-com-LQ1t-8Ms5PY-unsplash@2x.png"
+              alt="christina-image" class="img-responsive" />
+          </div>             
+          <div class="col-md-6">
+            <div class="p-5">
+            <span class="Page-identifier">SERVICES</span>
+            <h1 class="ew-heading">
+              Amazing Service to
+              <br/>
+              <span class="ew-Highlight">Boost Your Goals</span>
+            </h1>
+            <p class="mt-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tLorem ipsum, or lipsum as it is sometimes known, is dummy
+              text used in laying out print, graphic or web designs. The passage
+              is attributed to an unknown typesetter in the 15th century who is
+              thought to have scrambled parts of Cicero's De Finibus Bonorum et
+              Malorum for use in a type specimen book. It usually begins with:
+              “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              </p>
+              <p class="mt-2">
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.” The
+              purpose of lorem ipsum is to create a natural looking block of
+              text (sentence, paragraph, page, etc.) that doesn't distract from
+              the layout. A practice not without controversy. , laying out pages
+              with meaningless filler text can be very useful when the focus is
+              meant to </p> 
+              <p class="mt-2">be on design, not content. The passage experienced a
+              surge in popularity during the 1960s when Letraset used it on
+              their dry-transfer sheets</p> 
+
+            <button class="ew-readmore-float-right-buttons mob-btn"><span class="read-more-text">read more <img class="arrowhead" src="./Assets/Images/noun_Arrow Right_70412.png" >
+      </span></button>
+
+       
+          </div>
+        
+      </div>
+      </div>
+
+    </section>
+ <div class="clearfix"></div>
+    <section class="my-6" id="SERVICES">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="ew-service-options-image ">
+              <img
+                src="./Assets/Images/EDGE Works - homepage – 2/Group 24-1@2x.png"
+                alt="service-options"
+                class="service-options-image"
+              />
+            </div>
+            <h2 class="ew-serviceoptions-heading mb-0">
+              Staff </h2>
+              <h2 class="ew-service-options-redhighlight">Augmentation</h2>
+           
+            <p class="ew-service-options-paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tLorem ipsum, or lipsum as it is sometimes known, is dummy
+              text used in laying out print, graphic or web designs. The passage
+              is attributed to an unknown typesetter in the 15th century who is
+              thought to have 
+     
+            </p>
+             <button class="ew-readmore-float-left-buttons "><span class="read-more-text">read more <img class="arrowhead" src="./Assets/Images/noun_Arrow Right_70412.png" >
+            </span></button>
+          </div>
+          <div class="col-md-4">
+            <div class="ew-service-options-image">
+              <img
+                src="./Assets/Images/EDGE Works - homepage – 2/Group 24-2@2x.png"
+                alt="service-options"
+                class="service-options-image"
+              />
+            </div>
+            <h2 class="ew-serviceoptions-heading mb-0">
+              Training &</h2>
+              <h2 class="ew-service-options-redhighlight">Consulting</h2>
+            
+            <p class="ew-service-options-paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tLorem ipsum, or lipsum as it is sometimes known, is dummy
+              text used in laying out print, graphic or web designs. The passage
+              is attributed to an unknown typesetter in the 15th century who is
+              thought to have 
+            </p>
+             <button class="ew-readmore-float-left-buttons"><span class="read-more-text">read more <img class="arrowhead" src="./Assets/Images/noun_Arrow Right_70412.png" >
+            </span></button>
+          </div>
+          <div class="col-md-4">
+            <div class="ew-service-options-image">
+              <img
+                src="./Assets/Images/EDGE Works - homepage – 2/Group 24-4@2x.png"
+                alt="service-options"
+                class="service-options-image"
+              />
+            </div>
+            <h2 class="ew-serviceoptions-heading mb-0">
+              Cloud Computing &  </h2>
+              <h2 class="ew-service-options-redhighlight">Infrastructure</h2>
+          
+            <p class="ew-service-options-paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tLorem ipsum, or lipsum as it is sometimes known, is dummy
+              text used in laying out print, graphic or web designs. The passage
+              is attributed to an unknown typesetter in the 15th century who is
+              thought to have 
+            </p>
+             <button class="ew-readmore-float-left-buttons"><span class="read-more-text">read more <img class="arrowhead" src="./Assets/Images/noun_Arrow Right_70412.png" >
+            </span></button>
+          </div>
+        </div>      
+      
+      </div>
+    </section>
+    <div class="clearfix"></div>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="ew-service-options-image">
+              <img
+                src="./Assets/Images/EDGE Works - homepage – 2/Group 24-3@2x.png"
+                alt="service-options"
+                class="service-options-image"
+              />
+            </div>
+            <h2 class="ew-serviceoptions-heading mt-6">
+           
+              Sales force
+              
+            </h2>
+            <p class="ew-service-options-paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tLorem ipsum, or lipsum as it is sometimes known, is dummy
+              text used in laying out print, graphic or web designs. The passage
+              is attributed to an unknown typesetter in the 15th century who is
+              thought to have 
+            </p>
+             <button class="ew-readmore-float-left-buttons mt-2"><span class="read-more-text">read more <img class="arrowhead" src="./Assets/Images/noun_Arrow Right_70412.png" >
+            </span></button>
+          </div>
+          <div class="col-md-4">
+            <div class="ew-service-options-image">
+              <img
+                src="./Assets/Images/EDGE Works - homepage – 2/Group 24-4@2x.png"
+                alt="service-options"
+                class="service-options-image"
+              />
+            </div>
+            <h2 class="ew-serviceoptions-heading mt-4">
+              Application Development
+              <h2 class="ew-service-options-redhighlight">MicroServices</h2>
+            </h2>
+            <p class="ew-service-options-paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tLorem ipsum, or lipsum as it is sometimes known, is dummy
+              text used in laying out print, graphic or web designs. The passage
+              is attributed to an unknown typesetter in the 15th century who is
+              thought to have 
+            </p>
+             <button class="ew-readmore-float-left-buttons mt-2"><span class="read-more-text">read more <img class="arrowhead" src="./Assets/Images/noun_Arrow Right_70412.png" >
+            </span></button>
+          </div>
+          <div class="col-md-4">
+            <div class="ew-service-options-image">
+              <img
+                src="./Assets/Images/EDGE Works - homepage – 2/Group 24-1@2x.png"
+                alt="service-options"
+                class="service-options-image"
+              />
+            </div>
+            <h2 class="ew-serviceoptions-heading mt-4">
+              Integration Services
+              <h2 class="ew-service-options-redhighlight">
+                (Dell Boomi, MuleSoft,<br/> Enterprise Collaboration etc)
+              </h2>
+            </h2>
+           <p class="ew-service-options-paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tLorem ipsum, or lipsum as it is sometimes known, is dummy
+              text used in laying out print, graphic
+            </p>
+             <button class="ew-readmore-float-left-buttons mt-3"><span class="read-more-text">read more <img class="arrowhead" src="./Assets/Images/noun_Arrow Right_70412.png" >
+
+            </span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="clearfix"></div>
+    <section class="my-6">
+      <div class="">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="p-md-5 p-sm-0">
+            <span class="Page-identifier">PORTFOLIO</span>
+            <h1 class="ew-heading">
+              Trusted by Biggest 
+              <br/>
+              <span class="ew-Highlight">Business Names</span>
+            </h1>
+            <p class="mt-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tLorem ipsum, or lipsum as it is sometimes known, is dummy
+              text used in laying out print, graphic or web designs. The passage
+         
+              “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              </p><p class="mt-2">
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.” The
+              purpose of lorem ipsum is to create a natural looking block of
+              text (sentence, paragraph, page, etc.) 
+              meant to </p> 
+              <p class="mt-2">be on design, not content. The passage experienced a
+              surge in popularity during the 1960s when Letraset used it on
+              their dry-transfer sheets</p> 
+
+            <button class="ew-readmore-float-left-buttons"><span class="read-more-text">read more <img class="arrowhead" src="./Assets/Images/noun_Arrow Right_70412.png" >
+
+            </span></button>
+
+          </div>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="./Assets/Images/shutterstock_108327083/shutterstock_108327083.png"
+              alt="christina-image"
+              class="ew-services-image"
+            />
+          </div>             
+          
+        
+      </div>
+      </div>
+
+    </section>
+
+<div class="clearfix"></div>
+    <section class="ew-careers" id="CAREERS">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+         
+              <img
+                src="Assets/Images/EDGE Works - homepage – 2/Group 33@2x.png"
+                alt="group-33"
+                class="ew-careers-image "
+              />
+         
+          </div>
+          <div class="col-md-6">
+            <span class="Page-identifier">Careers</span>
+            <h1 class="ew-careerspage-heading mb-0">
+              Become an Industry
+              <h1 class="ew-bluehighlight-heading">Professional</h1>
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tLorem ipsum, or lipsum as it is sometimes known, is dummy
+              text used in laying out print, graphic or web designs. The passage
+              is attributed to an unknown typesetter in the 15th century who is
+              thought to have scrambled parts of Cicero's De Finibus Bonorum et
+              Malorum for use in a type specimen book. It usually begins with:
+              </p><p>
+              “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.” The
+              purpose of lorem ipsum is to create a natural looking block of
+              text (sentence, paragraph, page, etc.) that doesn't distract from
+              the layout. A practice not without controversy.</p> <p> laying out pages
+              with meaningless filler text can be very useful when the focus is
+              meant to be on design, not content
+            </p>
+ <button class="ew-readmore-float-right-buttons"><span class="read-more-text">read more <img class="arrowhead" src="./Assets/Images/noun_Arrow Right_70412.png" >
+
+            </span></button>          </div>
+        </div>
+      </div>
+      </section>
+      <div class="clearfix"></div>
+      <section class="ew-manifasto my-6">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <span class="Page-identifier">Success over the years</span>
+            <h1 class="ew-heading">
+              Stats talk 
+              <br/>
+              <span class="ew-Highlight">For themselves </span>
+            </h1> 
+            <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tLorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tLorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs</p>
+            
+      </div>
+      <div class="col-md-7">
+        <div class="row text-center mt-5 px-4">
+          <div class="col-md-6">
+            <div>
+          <h1>90%</h1>
+          <h2>Client Success</h2>
+        <p>Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit, sed do
+          eiusmod tLorem ipsum.</p>
+        </div>
+          <div >
+            <h1>100+</h1>
+            <h2>Solutions</h2>
+            <p>Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit, sed do
+              eiusmod tLorem ipsum.</p>
+            </div>
+        </div>
+        
+     
+      <div class="col-md-6">
+        <div >
+          <h1>120+</h1>
+          <h2>Businesses guided</h2>
+          <p>Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do
+            eiusmod tLorem ipsum.</p>
+          </div>
+        <div>
+          <div>
+          <h1>120+</h1>
+          <h2>Client Success</h2>
+          <p>Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do
+            eiusmod tLorem ipsum.</p></div>
+      </div>
+       </div>
+      </div>
+    </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+<div class="clearfix"></div>
+    <section class="ew-getIn-touch">
+    <div class="container">
+      <div class="row py-6 "> 
+      <div class="col-md-6">
+                    <span class="Page-identifier">Contact</span>
+                    <h1>Get in Touch</h1>
+                    <p class="ew-getin-touch-para">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tLorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. 
+                    </p>
+                    <p class="ew-getin-touch-para">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tLorem ipsum, or lipsum as it is sometimes known.
+                    </p>
+
+
+      </div>
+       <div class="col-md-2 text-center">
+         <div class="contact-us-images">
+          <img src="./Assets//Images/EDGE Works - homepage – 2/noun_Location_1631769.svg" alt="location"/> 
+         </div>
+         <h3>Our Location</h3>
+         <p>
+           5055 Keller Springs Rd Suite 150 Addison, TX 75001
+         </p>
+
+      </div>
+       <div class="col-md-2 text-center">
+<div class="contact-us-images">
+          <img src="./Assets//Images/EDGE Works - homepage – 2/noun_Email_4270634.svg" alt="Email"/> 
+         </div>
+         <h3>Email us</h3>
+         <p>
+info@appstekcorp.com         </p>
+      </div>
+       <div class="col-md-2 text-center">
+<div class="contact-us-images">
+          <img src="./Assets//Images/EDGE Works - homepage – 2/noun_phone call_4021442.svg" alt="Phone"/> 
+         </div>
+         <h3>Call us</h3>
+         <p>
+USA + 1 855 585 7344 INDIA +91 40 4286 5599 <br/>UAE +971 4 3132770  </p>
+      </div>
+</div>
+
+    </div> 
+
+    </section>
+    <section class="contact-info-from my-6">
+      <div class="container"> 
+        <div class="row ">
+          <div class="col-md-6 ">
+            <div class="text-center">
+              <img
+                src="Assets/Images/EDGE Works - homepage – 2/Group 54@2x.png"
+                alt="contact-img"
+                class="ew-contact-info-image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <form class="d-flex flex-column justify-content-center mt-md-5">
+              <label for="Name"> Your name<input type="text"></input> </label>
+               <label for="Email"> Email<input type="text"></input> </label>
+                <label for="Email">Message <textarea type="text"></textarea> </label>
+                
+             <button class="ew-readmore-float-left-buttons form-btn mt-3 align-self-end"><span class="read-more-text">Submit  
+            </form>
+          </div>
+          <div class="col-6"></div>
+        </div>
+      </div>
+    </section>
+    <section class="ew-Portfolio" id="PORTFOLIO">
+      <div class="container-fluid">
+        <div class="col-6"> 
+
+        </div>
+        <div class="col-6">
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <footer>  
+      <div class="bg-image-footer container">
+     
+       <div class="row justify-content-center p-2">
+         <div class="col-12 text-center border-bottom-2 footer-logo align-self-center my-3">
+      <img src="./Assets/Images/LOGO.png" alt="Edgeworks-footer-logo" class="footer-logo-ew "/>
+      <div class="conn"></div>
+       </div>
+               <div class=" col-12  text-center my-2 ">
+                 <p >contact with us:</p>     
+                   
+                              <div class="footer-social-icons flex-row flex-grow justify-content-center ">
+                               <!--<div>
+                               <img src="./Assets/Images/Component 38 – 2.svg" alt="facbook-image" class="px-1" />
+                               </div>
+                               <div>
+                               <img src="./Assets/Images/Component 39 – 2.svg" alt="facbook-image" class="px-1"/>
+                               </div>
+                               <div>
+                               <img src="./Assets/Images/Component 40 – 2.svg" alt="facbook-image" class="px-1"/>
+                               </div><div>
+                               <img src="./Assets/Images/Component 41 – 2.svg" alt="facbook-image" class="px-1"/>
+                               </div>
+                               <div>
+    
+                               <img src="./Assets/Images/Component 42 – 2.svg" alt="facbook-image" class="px-1"/>
+                               </div>
+                                <div>
+    
+                               <img src="./Assets/Images/Component 43 – 2.svg" alt="facbook-image" class="px-1"/>
+                               </div>-->                             
+                             </div> 
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+</script>
+
+<ol class="social-icons">
+  <li>
+  <a href="#linkedin"><i class="fab fa-linkedin-in icon"></i></a></li>
+  <li>
+    <a href="#twitter"><i class="fab fa-twitter icon"></i></a>
+  </li>
+  <li>
+    <a href="#facebook">
+      <i class="fab fa-facebook-f icon"></i>    </a>
+  </li>
+    <li>
+      <a href="#instagram">
+        <i class="fab fa-instagram icon"></i>    </a>
+    </li>
+    <li>
+      <a href="#youtube"><i class="fab fa-youtube icon"></i></a></li>
+    <li>
+      <a href="#whatsapp">
+        <i class="fab fa-whatsapp icon"></i></a>
+    </li>
+</ol>
+                             <div class="conn my-1"></div>
+
+
+         </div>
+               <div class="col-12 text-center my-2"> 
+           <ul class="footer-links d-flex flex-row justify-content-center px-3">
+            
+         <li class="px-2 border-right"><a href="#">Home</a></li>
+        <li class="px-2 border-right"><a href="#">About</a></li>
+        <li class="px-2 border-right"><a href="#">Services</a></li>
+        <li class="px-2 border-right"><a href="#">Portfolio</a  ></li>
+        <li class="px-2 border-right"><a href="#">Jobs & Internship</a></li>
+      </ul>
+    
+    </div>
+    
+          <div class=" col-12 mx-md-5 Our-Location text-center d-flex justify-content-center my-3 ">
+            
+              <div class=" px-2">
+                <img src="./Assets/Images/EDGE Works - homepage – 2/noun_Location_1631769.svg" alt="footer-location" class="px-2"/>
+                USA: + 1 855 585 7344
+               </div>
+               <div class="border-left px-2"> 
+                 <img src="./Assets/Images/EDGE Works - homepage – 2/noun_Location_1631769.svg" alt="footer-location" class="px-2"/>
+                 India: + 91 40 4286 5599
+               </div>
+               <div class="border-left px-2">
+                 <img src="./Assets/Images/EDGE Works - homepage – 2/noun_Location_1631769.svg" alt="footer-location" class="px-2"/>
+                 UAE: + 971 4 3132770        
+               </div>
+             
+         </div>
+          
+          
+    
+       </div>
+     </div>
+    </footer>
+
+
+<section class="copy-rights">
+<div class="container-fluid">
+  <div class="row">
+      <div class="col text-center">
+        <div>
+
+          <h5>Copyright 2021. Edge Works. All Rights Reserved.</h5>
+        </div>
+
+      </div>
+    </div> 
+    
+</div>
+</section>     
+    <!--  -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/bf51e6ec9e.js" crossorigin="anonymous"></script>
+    <!--  -->
+    <!-- js script for active -->
+
+    <script>
+
+      // Add active class to the current button (highlight it)
+
+      var header = document.getElementById("ew-navbar-list");
+
+      var btns = header.getElementsByClassName("nav-link");
+
+      for (var i = 0; i < btns.length; i++) {
+
+        btns[i].addEventListener("click", function() {
+
+        var current = document.getElementsByClassName("active");
+
+        current[0].className = current[0].className.replace(" active", "");
+
+        this.className += " active";
+
+        });
+
+      }
+
+    </script>
+  </body>
+</html>

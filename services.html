@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- for tabs -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!--  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@600&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $(".navbar-fixed-top");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
+      function Tab1() {
+        let picElement = document.getElementById("picPlace");
+        let contEleent = document.getElementById("contPlace");
+        contEleent.innerHTML =
+          "<div><h4>Application Development, Micro Services</h4></div><p class=\"contP\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tLorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic. or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum. Let Malorum for use in a type specimen book. It usually begins with: “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.” The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice not without controversy. laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content. The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum.empor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.” The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice not without controversy</p>";
+        picElement.innerHTML =
+          '<img src="./Assets/Images/EDGE Works - homepage – 2/Group 24-1@2x.png"/>';
+        console.log("clicked");
+      }
+      function Tab2() {
+        let picElement = document.getElementById("picPlace");
+        let contEleent = document.getElementById("contPlace");
+        contEleent.innerHTML =
+          "<div><h4>Cloud Computing & Infrastructure</h4></div><p class=\"contP\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tLorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic. or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum. Let Malorum for use in a type specimen book. It usually begins with: “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.” The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice not without controversy. laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content. The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum.empor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.” The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice not without controversy</p>";
+        picElement.innerHTML =
+          '<img src="./Assets/Images/EDGE Works - homepage – 2/Group 24-4@2x.png"/>';
+        console.log("clicked");
+      }
+      function Tab3() {
+        let picElement = document.getElementById("picPlace");
+        let contEleent = document.getElementById("contPlace");
+        contEleent.innerHTML =
+          "<div><h4>Sales Force</h4></div><p class=\"contP\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tLorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic. or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum. Let Malorum for use in a type specimen book. It usually begins with: “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.” The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice not without controversy. laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content. The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum.empor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.” The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice not without controversy</p>";
+        picElement.innerHTML =
+          '<img src="./Assets/Images/EDGE Works - homepage – 2/Group 24-3@2x.png"/>';
+      }
+      function Tab4() {
+        divElement.innerHTML = "<h1>This is div 4</h1>";
+      }
+    </script>
+    <link href="./Styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="ew-navigation">
+      <nav
+        class="navbar navbar-expand-lg fixed-top navbar-fixed-top"
+        id="ew-navigation"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="Assets/Images/edge logo.png"
+              alt="ew-logo"
+              class="ew-logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#ew-navbar-list"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="ew-navbar-list">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a
+                  onClick="location.href='./main.html'"
+                  class="nav-link"
+                  href="#HOME"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  onClick="location.href='./about.html'"
+                  class="nav-link"
+                  href="#ABOUT"
+                  >ABOUT</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  onClick="location.href='./services.html'"
+                  class="nav-link active"
+                  href="#"
+                  >SERVICES</a
+                >
+              </li>
+              <!-- <li class="nav-item ">
+                <a class="nav-link" href="#CAREERS">CAREERS</a>
+              </li> -->
+              <li class="nav-item">
+                <a
+                  onClick="location.href='./portfolio.html'"
+                  class="nav-link"
+                  href="#"
+                  >PORTFOLIO</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  onClick="location.href='./jobs.html'"
+                  class="nav-link"
+                  href="#"
+                  >JOBS & INTERSHIP</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  onClick="location.href='./contact.html'"
+                  class="nav-link"
+                  href="#"
+                  >CONTACT</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="services-bg">
+      <div class="services-bg-img"></div>
+        <div class="container">
+          <div class="innerNavtabs container">
+            <ul class="navTabs nav nav-pills" role="tablist">
+              <li class="fa-homes">
+                <a class="nav-link">
+                  <i class="fas fa-home"></i>/Services</a
+                >
+              </li>
+              <li class="nav-item int">
+                <a
+                  class="nav-link active "
+                  data-toggle="pill"
+                  href="#IntegrationServices"
+                  >Integration Services</a
+                >
+                <div class="border-center-active"></div>
+              </li>
+              <li class="nav-item int">
+                <a
+                  class="nav-link"
+                  data-toggle="pill"
+                  href="#Training&Consulting"
+                  >Training & Consulting</a
+                >
+                 <div class="border-center-active"></div>
+              </li>
+              <li class="nav-item int">
+                <a class="nav-link" data-toggle="pill" href="#CloudComputing"
+                  >Cloud Computing</a
+                >
+                 <div class="border-center-active"></div>
+              </li>
+
+              <li class="nav-item int">
+                <a class="nav-link" data-toggle="pill" href="#SalesForce"
+                  >Sales Force</a
+                >
+                 <div class="border-center-active"></div>
+              </li>
+              <li class="nav-item int">
+                <a
+                  class="nav-link"
+                  data-toggle="pill"
+                  href="#ApplicationDevelopment"
+                  >Application Development</a
+                >
+                 <div class="border-center-active"></div>
+              </li>
+              <li class="nav-item int">
+                <a
+                  class="nav-link"
+                  data-toggle="pill"
+                  href="#Intervices"
+                  >Integration Services</a
+                >
+                <div class="border-center-active"></div>
+              </li>
+            </ul>
+
+            <div class="tab-content">
+              <div id="IntegrationServices" class="container tab-pane active">
+                <div class="row py-3 ">      
+                            <div class="col-5">
+                  <img src="./Assets/Images/EDGE Works - homepage – 2/Group 24-1@2x.png" class="mt-3"/>
+                </div>
+                 <div class="col-7 ">
+                   <h2 class="ew-heading"style="text-align:left;">Integration Services<span class="ew-Highlight-services"><h2>(Dell Boomi MuleSoft.Enterprise Collaboration etc) </h2></span> </h2>
+                   <p>
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tLorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic. or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum. Let Malorum for use in a type specimen book. It usually begins
+                     <br/>
+                     <br/>
+                     with: “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.” The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice not without controversy. laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content. <br/><br/>The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum.empor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                   </p>
+                </div>
+                </div>
+              </div>
+              <div id="Training&Consulting" class="container tab-pane fade">
+                  <div class="row py-3 ">      
+                            <div class="col-5">
+                  <img src="./Assets/Images/EDGE Works - homepage – 2/Group 24-2@2x.png" class="mt-3"/>
+                </div>
+                 <div class="col-7 ">
+                   <h2 style="text-align:left;">Application Development<span class="ew-Highlight-services"><h2>Micro Service</h2></span> </h2>
+                   <p>
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tLorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic. or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum. Let Malorum for use in a type specimen book. It usually begins
+                     <br/>
+                     <br/>
+                     with: “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.” The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice not without controversy. laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content. <br/><br/>The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum.empor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                   </p>
+                </div>
+                </div>
+              </div>
+              <div id="CloudComputing" class="container tab-pane fade">
+                <div class="row py-3 ">      
+                            <div class="col-5">
+                  <img src="./Assets/Images/EDGE Works - homepage – 2/Group 24-3@2x.png" class="mt-3"/>
+                </div>
+                 <div class="col-7 ">
+                   <h2 class="ew-heading">Cloud Computing & Infracture </h2>
+                   <p>
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tLorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic. or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum. Let Malorum for use in a type specimen book. It usually begins
+                     <br/>
+                     <br/>
+                     with: “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.” The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice not without controversy. laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content. <br/><br/>The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum.empor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                   </p>
+                </div>
+                </div>
+              </div>
+              <div id="SalesForce" class="container tab-pane fade">
+               <div class="row py-3 ">      
+                            <div class="col-5">
+                  <img src="./Assets/Images/EDGE Works - homepage – 2/Group 24-4@2x.png" class="mt-3"/>
+                </div>
+                 <div class="col-7 ">
+                   <h1 class="ew-heading" style="text-align:left;">Integration Services<span class="ew-Highlight-services"><h2>(Dell Boomi MuleSoft.Enterprise Collaboration etc) </h2></span> </h1>
+                   <p>
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tLorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic. or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum. Let Malorum for use in a type specimen book. It usually begins
+                     <br/>
+                     <br/>
+                     with: “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.” The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice not without controversy. laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content. <br/><br/>The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum.empor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                   </p>
+                </div>
+                </div>
+              </div>
+
+              <div id="ApplicationDevelopment" class="container tab-pane fade">
+                  <div class="row py-3 ">      
+                            <div class="col-5">
+                  <img src="./Assets/Images/EDGE Works - homepage – 2/Group 24-5@2x.png" class="mt-3"/>
+                </div>
+                 <div class="col-7 ">
+                   <h1 class="ew-heading" style="text-align:left;">Integration Services </h1>
+                   <p>
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tLorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic. or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum. Let Malorum for use in a type specimen book. It usually begins
+                     <br/>
+                     <br/>
+                     with: “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.” The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice not without controversy. laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content. <br/><br/>The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum.empor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                   </p>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="bg-image-footer container">
+        <div class="row justify-content-center p-2">
+          <div
+            class="text-center border-bottom-2 footer-logo align-self-center my-3"
+          >
+            <img
+              src="./Assets/Images/LOGO.png"
+              alt="Edgeworks-footer-logo"
+              class="footer-logo-ew"
+            />
+            <div class="conn"></div>
+          </div>
+          <div class="col-12 text-center my-2">
+            <p>contact with us:</p>
+
+            <div
+              class="footer-social-icons flex-row flex-grow justify-content-center"
+            >
+              <!--<div>
+                             <img src="./Assets/Images/Component 38 – 2.svg" alt="facbook-image" class="px-1" />
+                             </div>
+                             <div>
+                             <img src="./Assets/Images/Component 39 – 2.svg" alt="facbook-image" class="px-1"/>
+                             </div>
+                             <div>
+                             <img src="./Assets/Images/Component 40 – 2.svg" alt="facbook-image" class="px-1"/>
+                             </div><div>
+                             <img src="./Assets/Images/Component 41 – 2.svg" alt="facbook-image" class="px-1"/>
+                             </div>
+                             <div>
+  
+                             <img src="./Assets/Images/Component 42 – 2.svg" alt="facbook-image" class="px-1"/>
+                             </div>
+                              <div>
+  
+                             <img src="./Assets/Images/Component 43 – 2.svg" alt="facbook-image" class="px-1"/>
+                             </div>-->
+            </div>
+            <script
+              src="https://code.jquery.com/jquery-3.3.1.js"
+              integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+              crossorigin="anonymous"
+            ></script>
+
+            <ol class="social-icons">
+              <li>
+                <a href="#linkedin"><i class="fab fa-linkedin-in icon"></i></a>
+              </li>
+              <li>
+                <a href="#twitter"><i class="fab fa-twitter icon"></i></a>
+              </li>
+              <li>
+                <a href="#facebook"> <i class="fab fa-facebook-f icon"></i> </a>
+              </li>
+              <li>
+                <a href="#instagram"> <i class="fab fa-instagram icon"></i> </a>
+              </li>
+              <li>
+                <a href="#youtube"><i class="fab fa-youtube icon"></i></a>
+              </li>
+              <li>
+                <a href="#whatsapp"> <i class="fab fa-whatsapp icon"></i></a>
+              </li>
+            </ol>
+            <div class="conn my-1"></div>
+          </div>
+          <div class="col-12 text-center my-2">
+            <ul
+              class="footer-links d-flex flex-row justify-content-center px-3"
+            >
+              <li class="px-2 border-right"><a href="#">Home</a></li>
+              <li class="px-2 border-right"><a href="#">About</a></li>
+              <li class="px-2 border-right"><a href="#">Services</a></li>
+              <li class="px-2 border-right"><a href="#">Portfolio</a></li>
+              <li class="px-2 border-right">
+                <a href="#">Jobs & Internship</a>
+              </li>
+            </ul>
+          </div>
+
+          <div
+            class="col-12 Our-Location text-center d-flex justify-content-center my-3"
+          >
+            <div class="px-2">
+              <img
+                src="./Assets/Images/EDGE Works - homepage – 2/noun_Location_1631769.svg"
+                alt="footer-location"
+                class="px-2"
+              />
+              USA: + 1 855 585 7344
+            </div>
+            <div class="border-left px-2">
+              <img
+                src="./Assets/Images/EDGE Works - homepage – 2/noun_Location_1631769.svg"
+                alt="footer-location"
+                class="px-2"
+              />
+              India: + 91 40 4286 5599
+            </div>
+            <div class="border-left px-2">
+              <img
+                src="./Assets/Images/EDGE Works - homepage – 2/noun_Location_1631769.svg"
+                alt="footer-location"
+                class="px-2"
+              />
+              UAE: + 971 4 3132770
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <section class="copy-rights">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col text-center">
+            <div>
+              <h5>Copyright 2021. Edge Works. All Rights Reserved.</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+<!-- /* Services */
+ul.navTabs {
+  list-style-type: none;
+  background-color: #ffffff;
+  margin-top: -30px;
+  padding: 0px;
+  border-radius: 10px 10px 5px 1px;
+  box-shadow: 0px 3px 6px #00000029;
+}
+ul.navtabs li {
+  display: inline-block;
+  padding: 5px 0px;
+}
+li.int {
+  padding: 16px 12px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #cb2229;
+  background-color: rgba(255, 255, 255, 0);
+}
+/* .navbar-nav > .active > a {
+  background-color: #c0c0c0;
+  color: green;
+} */
+ul.navTabs li a {
+  font-size: 10px;
+}
+li.fa-homes {
+  padding: 17px 40px;
+  background-color: #313073;
+  color: white;
+  border-radius: 10px 0px 0px 10px;
+}
+li.fa-homes a {
+  font-size: 15px !important;
+}
+p.contP {
+  font-size: 10px !important;
+}
+#navContent {
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 20px;
+}
+.tab-content img {
+  max-width: 400px;
+  max-height: 400px;
+}
+.tab-content > div > div {
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 5px 10px 10px 50px;
+}
+.tab-content p {
+  font-size: 10px;
+}
+/* ul.navTabs li.fa-home ~ li::after {
+  content: " ";
+  display: block;
+  border-bottom: 5px solid #cb2229;
+  border-radius: 10px;
+  width: 10%;
+  margin: auto;
+} */ -->

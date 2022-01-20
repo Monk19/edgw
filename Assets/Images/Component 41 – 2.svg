@@ -1,0 +1,37 @@
+<svg id="Component_41_2" data-name="Component 41 – 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42" height="42" viewBox="0 0 42 42">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_77" data-name="Rectangle 77" width="42" height="42" transform="translate(1043 2922)" fill="#fff"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-0.064" y1="1.055" x2="1.114" y2="-0.105" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fed576"/>
+      <stop offset="0.26" stop-color="#f47133"/>
+      <stop offset="0.61" stop-color="#bc3081"/>
+      <stop offset="1" stop-color="#4c63d2"/>
+    </linearGradient>
+  </defs>
+  <g id="Mask_Group_17" data-name="Mask Group 17" transform="translate(-1043 -2922)" clip-path="url(#clip-path)">
+    <g id="Group_111" data-name="Group 111" transform="translate(-4)">
+      <g id="Layer_2" data-name="Layer 2" transform="translate(1048 2923)">
+        <g id="Layer_1" data-name="Layer 1">
+          <rect id="Rectangle_54" data-name="Rectangle 54" width="40" height="40" rx="6.48" fill="#fff"/>
+          <g id="_Group_" data-name="&lt;Group&gt;" transform="translate(6.917 6.928)">
+            <path id="_Compound_Path_" data-name="&lt;Compound Path&gt;" d="M11.931,5H24.4c.277.139.693.139.97.277a6.623,6.623,0,0,1,5.265,4.572,11.084,11.084,0,0,1,.416,2.078V24.12a9.616,9.616,0,0,1-1.663,4.3,7.634,7.634,0,0,1-6.235,2.632H12.762a7.607,7.607,0,0,1-5.126-1.663A7.634,7.634,0,0,1,5,23.206v-9.7a10.488,10.488,0,0,1,.139-2.078,6.789,6.789,0,0,1,5.265-5.958Zm-4.3,13.162v5.4a4.738,4.738,0,0,0,5.126,5.126q5.4.208,10.807,0c3.187,0,4.988-1.94,5.126-5.126q.208-5.4,0-10.807a4.877,4.877,0,0,0-5.126-5.126q-5.4-.208-10.807,0a4.738,4.738,0,0,0-5.126,5.126Z" transform="translate(-4.992 -5)" fill="#212121"/>
+            <path id="_Compound_Path_2" data-name="&lt;Compound Path&gt;" d="M9.64,16.429A6.8,6.8,0,0,1,16.429,9.64a6.928,6.928,0,0,1,6.789,6.789,6.8,6.8,0,0,1-6.789,6.789A6.928,6.928,0,0,1,9.64,16.429Zm6.789-4.3a4.226,4.226,0,1,0,4.157,4.157A4.157,4.157,0,0,0,16.429,12.134Z" transform="translate(-3.201 -3.211)" fill="#212121"/>
+            <path id="_Path_" data-name="&lt;Path&gt;" d="M18.34,9.9A1.607,1.607,0,0,1,20,8.24,1.787,1.787,0,0,1,21.666,9.9a1.663,1.663,0,1,1-3.325,0Z" transform="translate(0.153 -3.751)" fill="#212121"/>
+          </g>
+        </g>
+      </g>
+      <g id="Layer_2-2" data-name="Layer 2" transform="translate(1048 2965)">
+        <g id="Layer_1-2" data-name="Layer 1">
+          <rect id="Rectangle_54-2" data-name="Rectangle 54" width="40" height="40" rx="6.48" fill="url(#linear-gradient)"/>
+          <g id="_Group_2" data-name="&lt;Group&gt;" transform="translate(6.917 6.928)">
+            <path id="_Compound_Path_3" data-name="&lt;Compound Path&gt;" d="M11.931,5H24.4c.277.139.693.139.97.277a6.623,6.623,0,0,1,5.265,4.572,11.084,11.084,0,0,1,.416,2.078V24.12a9.616,9.616,0,0,1-1.663,4.3,7.634,7.634,0,0,1-6.235,2.632H12.762a7.607,7.607,0,0,1-5.126-1.663A7.634,7.634,0,0,1,5,23.206v-9.7a10.488,10.488,0,0,1,.139-2.078,6.789,6.789,0,0,1,5.265-5.958Zm-4.3,13.162v5.4a4.738,4.738,0,0,0,5.126,5.126q5.4.208,10.807,0c3.187,0,4.988-1.94,5.126-5.126q.208-5.4,0-10.807a4.877,4.877,0,0,0-5.126-5.126q-5.4-.208-10.807,0a4.738,4.738,0,0,0-5.126,5.126Z" transform="translate(-4.992 -5)" fill="#fff"/>
+            <path id="_Compound_Path_4" data-name="&lt;Compound Path&gt;" d="M9.64,16.429A6.8,6.8,0,0,1,16.429,9.64a6.928,6.928,0,0,1,6.789,6.789,6.8,6.8,0,0,1-6.789,6.789A6.928,6.928,0,0,1,9.64,16.429Zm6.789-4.3a4.226,4.226,0,1,0,4.157,4.157A4.157,4.157,0,0,0,16.429,12.134Z" transform="translate(-3.201 -3.211)" fill="#fff"/>
+            <path id="_Path_2" data-name="&lt;Path&gt;" d="M18.34,9.9A1.607,1.607,0,0,1,20,8.24,1.787,1.787,0,0,1,21.666,9.9a1.663,1.663,0,1,1-3.325,0Z" transform="translate(0.153 -3.751)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

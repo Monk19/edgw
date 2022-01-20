@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@600&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $(".navbar-fixed-top");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
+    <link href="./Styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="ew-navigation">
+      <nav
+        class="navbar navbar-expand-lg fixed-top navbar-fixed-top"
+        id="ew-navigation"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="Assets/Images/edge logo.png"
+              alt="ew-logo"
+              class="ew-logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#ew-navbar-list"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="ew-navbar-list">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item home-navl">
+                <a
+                  onClick="location.href='./main.html'"
+                  class="nav-link home-nava"
+                  href="#HOME"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item home-navl">
+                <a
+                  onClick="location.href='./about.html'"
+                  class="nav-link active home-nava"
+                  href="#ABOUT"
+                  >ABOUT</a
+                >
+              </li>
+              <li class="nav-item home-navl">
+                <a
+                  onClick="location.href='./services.html'"
+                  class="nav-link home-nava"
+                  href="#"
+                  >SERVICES</a
+                >
+              </li>
+              <!-- <li class="nav-item ">
+                <a class="nav-link" href="#CAREERS">CAREERS</a>
+              </li> -->
+              <li class="nav-item home-navl">
+                <a
+                  onClick="location.href='./portfolio.html'"
+                  class="nav-link home-nava"
+                  href="#"
+                  >PORTFOLIO</a
+                >
+              </li>
+              <li class="nav-item home-navl">
+                <a
+                  onClick="location.href='./jobs.html'"
+                  class="nav-link home-nava"
+                  href="#"
+                  >JOBS & INTERSHIP</a
+                >
+              </li>
+              <li class="nav-item home-navl">
+                <a
+                  onClick="location.href='./contact.html'"
+                  class="nav-link home-nava"
+                  href="#"
+                  >CONTACT</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="about-bg">
+      <div class="bg-image-about">
+        <img src="Assets/Images/about/shutterstock_754479781.png" />
+      </div>
+      <div class="container"></div>
+    </section>
+
+    <section class="about-grad">
+      <div class="container">
+        <h1 class="about-head">Our Story</h1>
+        <p class="about-para">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum <br />
+          <br />
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem IpsumLorem Ipsum is simply dummy text of
+          the printing and typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s, when an unknown
+          printer took a galley of type and scrambled it to make a type specimen
+          book. It has survived not only five centuries, but also the leap into
+          electronic typesetting, remaining essentially unchanged. It was
+          popularised in the 1960s with the release of Letraset sheets
+          containing Lorem Ipsum passages, and more recently with desktop
+          publishing software like Aldus PageMaker including versions of Lorem
+          Ipsum
+        </p>
+      </div>
+    </section>
+
+    <section class="about-vision">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="vision-bg text-center">
+            <h1>Our Vision</h1>
+            <div class="line-bg mb-3"></div>
+            <p class="mb-3">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960.
+            </p>
+            <p>
+              Aldus PageMaker including versions of Lorem Ipsum Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum Letraset sheets containing.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 text-center">
+          <div class="mission-bg">
+            <h1>Our Mission</h1>
+            <div class="line-bg mb-3"></div>
+            <p class="mb-3">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960.
+            </p>
+            <p>
+              Aldus PageMaker including versions of Lorem Ipsum Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum Letraset sheets containing.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="advantages">
+      <div class="container">
+        <h1 class="adv-head text-center">Advanatages</h1>
+        <div class="line-bg mb-3"></div>
+
+        <div class="row mt-5">
+          <div class="col-md-6">
+            <ul class="bullets">
+              <li>
+                Aldus PageMaker including versions of Lorem Ipsum Letraset
+                sheets containing Lorem Ipsum passages, and more recently with
+                desktop publishing software.
+              </li>
+              <li>
+                Aldus PageMaker including versions of Lorem Ipsum Letraset
+                sheets containing Lorem Ipsum passages, and more recently with
+                desktop publishing software.
+              </li>
+              <li>
+                Aldus PageMaker including versions of Lorem Ipsum Letraset
+                sheets containing Lorem Ipsum passages, and more recently with
+                desktop publishing software.
+              </li>
+              <li>
+                Aldus PageMaker including versions of Lorem Ipsum Letraset
+                sheets containing Lorem Ipsum passages, and more recently with
+                desktop publishing software.
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-6">
+            <ul class="bullets">
+              <li>
+                Aldus PageMaker including versions of Lorem Ipsum Letraset
+                sheets containing Lorem Ipsum passages, and more recently with
+                desktop publishing software.
+              </li>
+              <li>
+                Aldus PageMaker including versions of Lorem Ipsum Letraset
+                sheets containing Lorem Ipsum passages, and more recently with
+                desktop publishing software.
+              </li>
+              <li>
+                Aldus PageMaker including versions of Lorem Ipsum Letraset
+                sheets containing Lorem Ipsum passages, and more recently with
+                desktop publishing software.
+              </li>
+              <li>
+                Aldus PageMaker including versions of Lorem Ipsum Letraset
+                sheets containing Lorem Ipsum passages, and more recently with
+                desktop publishing software.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-about">
+      <div class="container py-5">
+        <h1 class="adv-head text-center">Leadership Team</h1>
+        <div class="line-bg mb-3"></div>
+        <div class="row">
+          <div class="col-md-4 py-5">
+            <div class="img-place wow fadeInUp">
+              <img src="./Assets/Images/about/img-1.png" alt="" />
+              <h1 class="leader-name">
+                James Richard<br /><span class="leader-des">
+                  CEO - EXAMPLE
+                </span>
+              </h1>
+              <!-- <p class="leader-des">CEO - Exmaple</p> -->
+              <div class="vl"></div>
+            </div>
+          </div>
+          <div class="col-md-6 offset-lg-1 wow fadeInRight">
+            <div class="about-bg p py-4">
+              <p>
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour, or randomised words which don't look even
+                slightly believable. If you are going to use a passage of Lorem
+                Ipsum, you need to be sure there isn't anything embarrassing
+                hidden in the middle of text. All the Lorem Ipsum generators on
+                the Internet tend to repeat predefined chunks as necessary,
+                making this the first true generator on the Internet. It uses a
+                dictionary of over 200 Latin words, combined with a handful of
+                model sentence structures, to generate Lorem Ipsum which looks
+                reasonable. The generated Lorem Ipsum is therefore always free
+                from repetition, injected humour, or non-characteristic words
+                etc.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="bg-image-footer container">
+        <div class="row justify-content-center p-2">
+          <div
+            class="text-center border-bottom-2 footer-logo align-self-center my-3"
+          >
+            <img
+              src="./Assets/Images/LOGO.png"
+              alt="Edgeworks-footer-logo"
+              class="footer-logo-ew"
+            />
+            <div class="conn"></div>
+          </div>
+          <div class="col-12 text-center my-2">
+            <p>contact with us:</p>
+
+            <div
+              class="footer-social-icons flex-row flex-grow justify-content-center"
+            >
+              <!--<div>
+                             <img src="./Assets/Images/Component 38 – 2.svg" alt="facbook-image" class="px-1" />
+                             </div>
+                             <div>
+                             <img src="./Assets/Images/Component 39 – 2.svg" alt="facbook-image" class="px-1"/>
+                             </div>
+                             <div>
+                             <img src="./Assets/Images/Component 40 – 2.svg" alt="facbook-image" class="px-1"/>
+                             </div><div>
+                             <img src="./Assets/Images/Component 41 – 2.svg" alt="facbook-image" class="px-1"/>
+                             </div>
+                             <div>
+  
+                             <img src="./Assets/Images/Component 42 – 2.svg" alt="facbook-image" class="px-1"/>
+                             </div>
+                              <div>
+  
+                             <img src="./Assets/Images/Component 43 – 2.svg" alt="facbook-image" class="px-1"/>
+                             </div>-->
+            </div>
+            <script
+              src="https://code.jquery.com/jquery-3.3.1.js"
+              integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+              crossorigin="anonymous"
+            ></script>
+
+            <ol class="social-icons">
+              <li>
+                <a href="#linkedin"><i class="fab fa-linkedin-in icon"></i></a>
+              </li>
+              <li>
+                <a href="#twitter"><i class="fab fa-twitter icon"></i></a>
+              </li>
+              <li>
+                <a href="#facebook"> <i class="fab fa-facebook-f icon"></i> </a>
+              </li>
+              <li>
+                <a href="#instagram"> <i class="fab fa-instagram icon"></i> </a>
+              </li>
+              <li>
+                <a href="#youtube"><i class="fab fa-youtube icon"></i></a>
+              </li>
+              <li>
+                <a href="#whatsapp"> <i class="fab fa-whatsapp icon"></i></a>
+              </li>
+            </ol>
+            <div class="conn my-1"></div>
+          </div>
+          <div class="col-12 text-center my-2">
+            <ul
+              class="footer-links d-flex flex-row justify-content-center px-3"
+            >
+              <li class="px-2 border-right"><a href="#">Home</a></li>
+              <li class="px-2 border-right"><a href="#">About</a></li>
+              <li class="px-2 border-right"><a href="#">Services</a></li>
+              <li class="px-2 border-right"><a href="#">Portfolio</a></li>
+              <li class="px-2 border-right">
+                <a href="#">Jobs & Internship</a>
+              </li>
+            </ul>
+          </div>
+
+          <div
+            class="col-12 Our-Location text-center d-flex justify-content-center my-3"
+          >
+            <div class="px-2">
+              <img
+                src="./Assets/Images/EDGE Works - homepage – 2/noun_Location_1631769.svg"
+                alt="footer-location"
+                class="px-2"
+              />
+              USA: + 1 855 585 7344
+            </div>
+            <div class="border-left px-2">
+              <img
+                src="./Assets/Images/EDGE Works - homepage – 2/noun_Location_1631769.svg"
+                alt="footer-location"
+                class="px-2"
+              />
+              India: + 91 40 4286 5599
+            </div>
+            <div class="border-left px-2">
+              <img
+                src="./Assets/Images/EDGE Works - homepage – 2/noun_Location_1631769.svg"
+                alt="footer-location"
+                class="px-2"
+              />
+              UAE: + 971 4 3132770
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <section class="copy-rights">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col text-center">
+            <div>
+              <h5>Copyright 2021. Edge Works. All Rights Reserved.</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
